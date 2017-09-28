@@ -63,14 +63,14 @@ Optionally, but recommended:
 
 * [pipenv](https://docs.pipenv.org/en/latest/) to manage Python
 dependencies (a good guide also
-[here](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+[here](http://docs.python-guide.org/en/latest/dev/virtualenvs/))
 
 ### Mongo
 
 To setup a replica set locally for testing, install Mongo locally and
 start as a replica set:
 
-    $ mongod --replSet singleNodeRepl
+    $ mongo --replSet singleNodeRepl
 
 Then, in the mongo shell:
 
@@ -101,9 +101,9 @@ Then run like:
 
     mongo-connector -c config.json
 
-where config.json looks like:
+where `config.json` looks like:
 
-and mappings.json looks like:
+and mappings.json` looks like:
 
 {
     "synctest": {
